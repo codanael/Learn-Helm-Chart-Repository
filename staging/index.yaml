@@ -3,7 +3,7 @@ entries:
   guestbook:
   - apiVersion: v2
     appVersion: v4
-    created: "2020-07-28T11:22:45.301839819Z"
+    created: "2020-07-28T11:32:32.092616264Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -18,7 +18,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-07-28T11:22:45.303836943Z"
+    created: "2020-07-28T11:32:32.094599783Z"
     description: A Helm chart for Kubernetes
     digest: e1dfbc1febb41113fa6dbf0811b07e4f499899f98232421c11d318837e2892aa
     maintainers:
@@ -30,7 +30,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-28T11:22:45.302759146Z"
+    created: "2020-07-28T11:32:32.09396491Z"
     description: A Helm chart for Kubernetes
     digest: 7b3982551382fe07ab4127ed020cc5d6b5d3e3437eb571caf6df8bd3a3f0dca6
     maintainers:
@@ -42,7 +42,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-07-28T11:22:45.302377099Z"
+    created: "2020-07-28T11:32:32.093468277Z"
     description: A Helm chart for Kubernetes
     digest: 309b11dc58cb884f38fb2205d4693d4be0a63917b3df2a0305fcad6beadf756d
     maintainers:
@@ -52,4 +52,4 @@ entries:
     urls:
     - nginx-1.0.1.tgz
     version: 1.0.1
-generated: "2020-07-28T11:22:45.297360781Z"
+generated: "2020-07-28T11:32:32.00329393Z"
