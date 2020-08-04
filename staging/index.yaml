@@ -3,7 +3,7 @@ entries:
   guestbook:
   - apiVersion: v2
     appVersion: v4
-    created: "2020-08-03T13:10:25.818464953Z"
+    created: "2020-08-04T13:25:48.950210491Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -18,7 +18,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-03T13:10:25.820434654Z"
+    created: "2020-08-04T13:25:48.952440278Z"
     description: A Helm chart for Kubernetes
     digest: 497870e80d853a4571c5f499b7e90175ea8317ac7dc77e256ea19a003ead45bf
     maintainers:
@@ -30,7 +30,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-03T13:10:25.819889554Z"
+    created: "2020-08-04T13:25:48.951997581Z"
     description: A Helm chart for Kubernetes
     digest: e1dfbc1febb41113fa6dbf0811b07e4f499899f98232421c11d318837e2892aa
     maintainers:
@@ -42,7 +42,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-03T13:10:25.819388554Z"
+    created: "2020-08-04T13:25:48.951460884Z"
     description: A Helm chart for Kubernetes
     digest: 7b3982551382fe07ab4127ed020cc5d6b5d3e3437eb571caf6df8bd3a3f0dca6
     maintainers:
@@ -54,7 +54,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-03T13:10:25.818956353Z"
+    created: "2020-08-04T13:25:48.950803988Z"
     description: A Helm chart for Kubernetes
     digest: 309b11dc58cb884f38fb2205d4693d4be0a63917b3df2a0305fcad6beadf756d
     maintainers:
@@ -64,4 +64,27 @@ entries:
     urls:
     - nginx-1.0.1.tgz
     version: 1.0.1
-generated: "2020-08-03T13:10:25.81436255Z"
+  spring:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-08-04T13:25:48.954806265Z"
+    dependencies:
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com
+      version: 1.x.x
+    description: Helm chart for deploying basic Spring applications
+    digest: eb653958e107e67b420c6ac781ae9c6ea5195aab1e0d153ecfcd77d39e24e283
+    home: https://spring.io
+    icon: https://spring.io/img/homepage/icon-spring-boot.svg
+    keywords:
+    - spring
+    - spring-cloud
+    maintainers:
+    - email: anaellatassa@gmail.com
+      name: Anael
+    name: spring
+    urls:
+    - spring-0.0.2.tgz
+    version: 0.0.2
+generated: "2020-08-04T13:25:48.946636112Z"
