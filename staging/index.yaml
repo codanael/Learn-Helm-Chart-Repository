@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  azure-k8s-agent:
+  - apiVersion: v2
+    appVersion: V1
+    created: "2020-08-07T06:55:03.947100942Z"
+    description: A Helm chart for Kubernetes that deploy azure agents in a clutser
+    digest: 81f623ad743c1cd33966e474053da47cf25ca819cce52b94464c0ee7e546ac65
+    home: dev.azure.com
+    maintainers:
+    - email: anaellatassa@gmail.com
+      name: Anael
+    name: azure-k8s-agent
+    type: application
+    urls:
+    - azure-k8s-agent-0.1.0.tgz
+    version: 0.1.0
   guestbook:
   - apiVersion: v2
     appVersion: v4
-    created: "2020-08-05T06:51:54.327779957Z"
+    created: "2020-08-07T06:55:03.951276148Z"
     dependencies:
     - name: redis
       repository: https://charts.bitnami.com/bitnami
@@ -18,7 +33,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-05T06:51:54.32964618Z"
+    created: "2020-08-07T06:55:03.953195652Z"
     description: A Helm chart for Kubernetes
     digest: 497870e80d853a4571c5f499b7e90175ea8317ac7dc77e256ea19a003ead45bf
     maintainers:
@@ -30,7 +45,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.17.0
-    created: "2020-08-05T06:51:54.32918305Z"
+    created: "2020-08-07T06:55:03.952640851Z"
     description: A Helm chart for Kubernetes
     digest: e1dfbc1febb41113fa6dbf0811b07e4f499899f98232421c11d318837e2892aa
     maintainers:
@@ -42,7 +57,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-05T06:51:54.328705918Z"
+    created: "2020-08-07T06:55:03.95221115Z"
     description: A Helm chart for Kubernetes
     digest: 7b3982551382fe07ab4127ed020cc5d6b5d3e3437eb571caf6df8bd3a3f0dca6
     maintainers:
@@ -54,7 +69,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-08-05T06:51:54.32827439Z"
+    created: "2020-08-07T06:55:03.951776249Z"
     description: A Helm chart for Kubernetes
     digest: 309b11dc58cb884f38fb2205d4693d4be0a63917b3df2a0305fcad6beadf756d
     maintainers:
@@ -67,7 +82,7 @@ entries:
   spring:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-05T06:51:54.333803754Z"
+    created: "2020-08-07T06:55:03.95850056Z"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -89,7 +104,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-08-05T06:51:54.331546905Z"
+    created: "2020-08-07T06:55:03.956156556Z"
     dependencies:
     - condition: mysql.enabled
       name: mysql
@@ -109,4 +124,4 @@ entries:
     urls:
     - spring-0.0.2.tgz
     version: 0.0.2
-generated: "2020-08-05T06:51:54.323556979Z"
+generated: "2020-08-07T06:55:03.94627904Z"
